@@ -3525,8 +3525,8 @@
         
         [_attributionButton addTarget:self action:@selector(showAttribution:) forControlEvents:UIControlEventTouchUpInside];
         
-        _attributionButton.frame = CGRectMake(self.bounds.size.width  - 30,
-                                              self.bounds.size.height - 30,
+        _attributionButton.frame = CGRectMake(75.0,
+                                              self.bounds.size.height - 27,
                                               _attributionButton.bounds.size.width,
                                               _attributionButton.bounds.size.height);
 
