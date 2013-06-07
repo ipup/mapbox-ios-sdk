@@ -64,17 +64,17 @@
 
 - (NSString *)longDescription
 {
-	return @"Open Sea Map/Open Street Map, the free wiki world map, provides freely usable map data for all parts of the world, under the Creative Commons Attribution-Share Alike 2.0 license.";
+	return @"Open Sea Map/Open Street Map, the free wiki world map, provides freely usable map data for all parts of the world, under the Open Database license.";
 }
 
 - (NSString *)shortAttribution
 {
-	return @"© OpenStreetMap CC-BY-SA";
+	return @"© OpenStreetMap ODBL";
 }
 
 - (NSString *)longAttribution
 {
-	return @"Map data © OpenStreetMap, licensed under Creative Commons Share Alike By Attribution.";
+	return @"Map data © OpenStreetMap, licensed under Open Database.";
 }
 
 @end
