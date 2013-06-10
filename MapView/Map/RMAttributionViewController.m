@@ -69,10 +69,9 @@
                     [attribution appendString:[tileSource shortAttribution]];
             }
         }
-        
-        if ( ! [attribution length])
-              [attribution setString:@"Map data © OpenStreetMap contributors <a href=\"http://mapbox.com/about/maps/\">(Details)</a>"];
-        
+        //if ( ! [attribution length])
+              //[attribution setString:@"Map data © OpenStreetMap contributors <a href=\"http://mapbox.com/about/maps/\">(Details)</a>"];
+        [attribution setString:@"Map data © OpenStreetMap (and) contributors, ODBL"];
         NSMutableString *contentString = [NSMutableString string];
 
         [contentString appendString:@"<style type='text/css'>"];
