@@ -95,10 +95,10 @@
 
     // fallback to generic OSM attribution
     //
-    if ( ! [attribution length]) {
+//    if ( ! [attribution length]) {
 //        [attribution setString:@"Map data © OpenStreetMap contributors<br/><a href=\"https://mapbox.com/about/maps/\">More</a>"];
         [attribution setString:@"Map data © OpenStreetMap (and) contributors, ODBL"];
-    }
+//    }
 
     // build up HTML styling
     //
