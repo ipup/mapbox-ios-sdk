@@ -617,12 +617,12 @@
 
             [viewController.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:formatString
                                                                                         options:0
-                                                                                        metrics:@{ @"bottomSpacing" : @(8) }
+                                                                                        metrics:@{ @"bottomSpacing" : @(50) }
                                                                                           views:views]];
 
-            [viewController.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:[attributionButton]-rightSpacing-|"
+            [viewController.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-leftSpacing-[attributionButton]"
                                                                                         options:0
-                                                                                        metrics:@{ @"rightSpacing" : @(8) }
+                                                                                        metrics:@{ @"leftSpacing" : @(8) }
                                                                                           views:views]];
         }
     }
